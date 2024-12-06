@@ -7,6 +7,9 @@
     * Ask the user to enter a temperature value in Celsius or Fahrenheit through PHP’s readline() function in the terminal.
     * Use a switch statement to select the type of conversion (Celsius to Fahrenheit or Fahrenheit to Celsius). */
 
+    // Fahrenheit = Celsius * 9/5 + 32
+    // Celsius = (Fahrenheit - 32) * 5/9
+
     define("FACTOR", 5/9);
     define("OFFSET", 32);
 
